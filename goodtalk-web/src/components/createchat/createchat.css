@@ -3,17 +3,8 @@
   flex-direction: column;
   width: auto;
   height: auto;
-  justify-content: center;
-  align-items: center;
 }
 
-.create-chat-title {
-  width: auto;
-  height: auto;
-}
-
-.enter-chat-name {
-  width: 150px;
-  height: 5px;
-  margin-top: 20px;
+.create-chat-button{
+  display: inline-block;
 }

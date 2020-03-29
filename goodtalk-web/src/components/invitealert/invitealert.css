@@ -1,0 +1,48 @@
+.alert-container {
+    height: 25vh;
+    width: 35vw;
+    z-index: 1;
+    align-self: center;
+    margin-top: 30vh;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.alert-text {
+    margin-left: 5%;
+}
+
+.alert-divider {
+    background-color: #d3d3d3;
+    width: 90%;
+    padding-top: 1px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.alert-link {
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+}
+
+.alert-copy-icon {
+    margin-left: 3%;
+    color: #7D4CDB;
+}
+
+.alert-dismiss {
+    color: #7D4CDB;
+    margin-left: 60%;
+    margin-top: 6%;
+    cursor: pointer;
+}
+
+.alert-heading {
+    display: flex;
+    flex-direction: row;
+}
+
+.alert-copy-confirm {
+    margin-top: 2%;
+}

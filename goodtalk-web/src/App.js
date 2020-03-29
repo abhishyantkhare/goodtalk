@@ -1,14 +1,22 @@
 import React from 'react';
 import './App.css';
-import CreateChat from "./components/createchat/createchat"
-import { Grommet } from 'grommet';
+import MainPage from "./components/mainpage/mainpage"
+import VideoChat from "./components/videochat/videochat"
+import { Grommet, Heading } from 'grommet';
+import { BrowserRouter as Router, Route } from "react-router-dom"
+
 
 function App() {
   return (
     <Grommet plain>
-      <div className="App">
-        <CreateChat />
-      </div>
+      <Router>
+        <Route exact path="/">
+          <MainPage />
+        </Route>
+        <Route path="/rooms/:id">
+          <VideoChat />
+        </Route>
+      </Router>
     </Grommet>
   );
 }

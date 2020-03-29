@@ -1,0 +1,12 @@
+.jitsi-container {
+    height: 100vh;
+    z-index: -1;
+    overflow-y: hidden;
+    width: 90%;
+    margin-left: 10%;
+}
+
+.container {
+    justify-content: center;
+    z-index: -1;
+}
